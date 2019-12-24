@@ -14,22 +14,41 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+
+ [[feature]]
+  icon = "map-marked-alt"
+  icon_pack = "fas"
+  name = "GIS"
+  description = "90%" 
+  
 [[feature]]
-  icon = "r-project"
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "Machine Learning"
+  description = "75%" 
+  
+[[feature]]
+  icon = "python"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "Python"
+  description = "80%"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
-  
+  description = "75%"  
+
 [[feature]]
-  icon = "camera-retro"
+  icon = "globe-europe"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Google Earth Engine"
+  description = "75%"
+
+[[feature]]
+  icon = "users-cog"
+  icon_pack = "fas"
+  name = "Spatial Planning"
+  description = "70%"
 
 +++
