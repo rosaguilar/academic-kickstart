@@ -72,8 +72,7 @@ email: "rosamaguilar@gmail.com"
 ---
 
 Rosa Aguilar holds a Diploma degree in Computer System Engineering from University Lisandro Alvarado in Venezuela.
-She holds two master’s degrees in Computer Science and Geoinformatics from University Simon Bolivar in Venezuela and the University of Twente in The Netherlands respectively. 
-Before joining ITC at the University of Twente as a PhD researcher, she worked as a Chief Technical Officer at the Geographic Institute of Venezuela. 
+She holds two master’s degrees in Computer Science and Geoinformatics from University Simon Bolivar in Venezuela and the University of Twente in The Netherlands respectively. <br>
+Before joining ITC at the University of Twente as a PhD researcher, she worked as a Chief Technical Officer at the Geographic Institute of Venezuela. <br>
 Previously, she accumulated practical experience in Geographic Information System (GIS), remotely sensed image analysis, spatial database management and Spatial Data Infrastructure (SDI) implementation at the Institute of Engineering in Venezuela.  
-
 Rosa is interested in geospatial tools for supporting collaborative spatial processes and machine learning techniques applied to geospatial data. 
