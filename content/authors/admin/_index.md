@@ -10,15 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role: Doctoral Researcher
-
+role: PhD
 # Organizations/Affiliations
 organizations:
 - name: University of Twente
   url: "https://www.utwente.nl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include machine learning and co-design of planning support tools.
 
 interests:
 - Machine learning 
