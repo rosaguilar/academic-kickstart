@@ -10,47 +10,52 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD
+role: Assistant Professor, Machine Learning & Data Integration
+
 # Organizations/Affiliations
 organizations:
-- name: University of Twente
-  url: "https://www.utwente.nl/"
+- name: Faculty ITC, University of Twente
+  url: "https://www.itc.nl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning and co-design of planning support tools.
+bio: GeoAI researcher and machine learning engineer. I turn satellite imagery and spatiotemporal data into tools that people and organisations can use, and I champion QGIS and open-source GIS.
 
 interests:
-- Machine learning 
-- Google Earth Engine
-- Collaborative Spatial Planning
-- Urban Dynamics
+- GeoAI and computer vision for Earth observation
+- Spatiotemporal machine learning
+- AI agents for geospatial tasks
+- Open-source GIS and QGIS
+- Planning support systems
 
 education:
   courses:
   - course: PhD in Urban Planning
     institution: University of Twente
-    year: ongoing
-  - course: Master Science in Geoinformatics
+    year: 2022
+  - course: MSc in Geoinformatics
     institution: University of Twente
     year: 2017
-  - course: Master Science in Computer Science
-    institution: University Simon Bolivar
+  - course: MSc in Computer Science
+    institution: Universidad Simón Bolívar
     year: 2009
+  - course: Diploma in Computer Systems Engineering
+    institution: Universidad Centroccidental Lisandro Alvarado
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: '#contact'
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/rosaaguilar
+  link: https://www.linkedin.com/in/rosamaguilar/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=fHZ5iqQAAAAJ
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0001-9521-2089
 - icon: github
   icon_pack: fab
   link: https://github.com/rosaguilar
@@ -62,16 +67,8 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "rosamaguilar@gmail.com"
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-#user_groups:
-#- Researchers
-#- Visitors
 ---
 
-Rosa Aguilar holds a Diploma degree in Computer System Engineering from University Lisandro Alvarado in Venezuela.
-She holds two master’s degrees in Computer Science and Geoinformatics from University Simon Bolivar in Venezuela and the University of Twente in The Netherlands respectively. <br>
-Before joining ITC at the University of Twente as a PhD researcher, she worked as a Chief Technical Officer at the Geographic Institute of Venezuela. <br>
-Previously, she accumulated practical experience in Geographic Information System (GIS), remotely sensed image analysis, spatial database management and Spatial Data Infrastructure (SDI) implementation at the Institute of Engineering in Venezuela.  
-Rosa is interested in geospatial tools for supporting collaborative spatial processes and machine learning techniques applied to geospatial data. 
+I am an **Assistant Professor in Machine Learning and Data Integration** at the Faculty ITC, University of Twente. I build machine learning and computer vision pipelines for satellite imagery and spatiotemporal data, from detecting solar panels from space to benchmarking AI agents in QGIS.
+
+I am a **QGIS contributor and open-source advocate** who has co-created the [ML4QGIS](project/ml4qgis/) plugin. I teach GeoAI at FOSS4G and in the UNIGIS MSc, and co-organised a FOSS4G/QGIS conference with 500+ participants. Before academia I was Deputy President of the Geographic Institute of Venezuela, and I [welcome collaboration](#partner) with industry and government.

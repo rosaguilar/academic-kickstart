@@ -1,0 +1,63 @@
+{{/* Modern card used by the Projects and Featured Publications sections.
+     Call with: (dict "item" $page "link" $url "target" $targetAttr) */}}
+{{ $item := .item }}
+{{ $link := .link | default $item.RelPermalink }}
+{{ $target := .target | default "" }}
+
+{{/* Summary */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify }}
+{{ else }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{/* Eyebrow: year and venue for publications, first tag for projects */}}
+{{ $eyebrow := "" }}
+{{ if eq $item.Type "publication" }}
+  {{ $venue := $item.Params.publication_short | default ($item.Params.publication | markdownify | plainify) }}
+  {{ $eyebrow = printf "%s · %s" ($item.Date.Format "2006") $venue }}
+{{ else if $item.Params.tags }}
+  {{ $eyebrow = index $item.Params.tags 0 }}
+{{ end }}
+
+{{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+{{ $anchor := $item.Params.image.focal_point | default "Smart" }}
+
+<article class="mcard{{ if not $resource }} mcard--no-media{{ end }}">
+
+  {{ with $resource }}
+  {{ $image := .Fill (printf "720x405 q90 %s" $anchor) }}
+  <a class="mcard-media" href="{{ $link }}" {{ $target | safeHTMLAttr }} tabindex="-1" aria-hidden="true">
+    <img src="{{ $image.RelPermalink }}" alt="" loading="lazy">
+  </a>
+  {{ else }}
+    {{ with $item.Params.icon }}
+    <a class="mcard-media mcard-media--icon" href="{{ $link }}" {{ $target | safeHTMLAttr }} tabindex="-1" aria-hidden="true">
+      <i class="{{ $item.Params.icon_pack | default "fas" }} fa-{{ . }}"></i>
+    </a>
+    {{ end }}
+  {{ end }}
+
+  <div class="mcard-body">
+    {{ with $eyebrow }}<div class="mcard-eyebrow">{{ . }}</div>{{ end }}
+
+    <h3 class="mcard-title">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a>
+    </h3>
+
+    {{ if eq $item.Type "publication" }}
+    <div class="mcard-authors">{{ partial "page_metadata_authors" $item }}</div>
+    {{ end }}
+
+    {{ with $summary }}<p class="mcard-summary">{{ . | plainify | htmlUnescape }}</p>{{ end }}
+
+    <div class="mcard-footer">
+      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      <a class="mcard-more" href="{{ $link }}" {{ $target | safeHTMLAttr }}>Read more <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+</article>

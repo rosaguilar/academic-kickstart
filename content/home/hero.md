@@ -2,57 +2,48 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academic"
+title = "GeoAI for real-world decisions"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+# hero_media = ""
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
-  # color = "navy"
-  
   # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
-  
-  # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  
+  gradient_start = "#0f4c5c"
+  gradient_end = "#2a9d8f"
+
+  # Background image (optional): add an image to `static/img/` and uncomment.
+  # image = "hero.jpg"
+  # image_darken = 0.6
+  # image_size = "cover"
+  # image_position = "center"
+
   # Text color (true=light or false=dark).
   text_color_light = true
 
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
+# Call to action links.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
+  url = "#partner"
+  label = "Work with me"
   icon_pack = "fas"
-  icon = "download"
-  
-[cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation"
+  icon = "handshake"
 
-# Note. An optional note to show underneath the links.
+[cta_alt]
+  url = "project/ml4qgis/"
+  label = "Explore ML4QGIS"
+
 [cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+  label = '<a href="#featured">Publications</a> · <a href="#talks">Talks & workshops</a>'
 +++
 
-**The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**
+Machine learning and computer vision for satellite imagery and spatiotemporal data, built with **open-source tools** and shared with **industry, government and the QGIS community**.
 
-Build **Anything** with Widgets
-
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+<div class="hero-stats">
+  <div class="hero-stat"><span class="hero-stat-num">7+</span><span class="hero-stat-label">years building ML pipelines</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label">peer-reviewed papers</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label">international conference talks</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">500+</span><span class="hero-stat-label">FOSS4G/QGIS conference attendees (co-organiser)</span></div>
+</div>

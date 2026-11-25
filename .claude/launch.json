@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hugo",
+      "runtimeExecutable": "D:/tools/hugo060/hugo.exe",
+      "runtimeArgs": ["server", "--port", "1313", "--disableFastRender"],
+      "port": 1313
+    }
+  ]
+}

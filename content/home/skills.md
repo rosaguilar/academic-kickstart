@@ -1,54 +1,50 @@
 +++
-# A Skills section created with the Featurette widget.
+# Research themes, shown with the Featurette widget.
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Skills"
+title = "What I work on"
 subtitle = ""
 
-# Showcase personal skills or business features.
-# 
-# Add/remove as many `[[feature]]` blocks below as you like.
-# 
+# Add/remove as many feature blocks below as you like (three per row).
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
+[[feature]]
+  icon = "satellite"
+  icon_pack = "fas"
+  name = "Computer vision on satellite imagery"
+  description = "Object detection and segmentation (YOLOv11) on high-resolution imagery, for example detecting solar panels and mapping crops on smallholder farms."
 
- [[feature]]
-  icon = "map-marked-alt"
-  icon_pack = "fas"
-  name = "GIS"
-  description = "90%" 
-  
-[[feature]]
-  icon = "wave-square"
-  icon_pack = "fas"
-  name = "Machine Learning"
-  description = "75%" 
-  
-[[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "Python"
-  description = "80%"
-  
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "75%"  
+  name = "Spatiotemporal machine learning"
+  description = "Random Forest, Mixed Effects RF, Prophet and SVM models for climate, Earth system and pollen prediction, from data preparation to validation."
 
 [[feature]]
-  icon = "globe-europe"
+  icon = "robot"
   icon_pack = "fas"
-  name = "Google Earth Engine"
-  description = "75%"
+  name = "AI agents for GIS"
+  description = "Designing a benchmark that tests how well AI agents carry out real geospatial tasks in QGIS."
 
 [[feature]]
-  icon = "users-cog"
+  icon = "layer-group"
   icon_pack = "fas"
-  name = "Spatial Planning"
-  description = "70%"
+  name = "Open source & QGIS"
+  description = "QGIS contributor, FOSS4G speaker and GeoAI workshop instructor; co-organiser of a FOSS4G/QGIS conference with 500+ participants."
+
+[[feature]]
+  icon = "users"
+  icon_pack = "fas"
+  name = "Planning support tools"
+  description = "Co-designed OGITO, an open-source tool that runs real-time spatial analysis to help stakeholders plan together."
+
+[[feature]]
+  icon = "handshake"
+  icon_pack = "fas"
+  name = "Working with partners"
+  description = "Applied GeoAI projects, co-supervised MSc and PhD theses and professional training with industry and government. [Get in touch](#contact)."
 
 +++

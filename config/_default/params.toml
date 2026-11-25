@@ -9,7 +9,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+theme = "geo"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -22,7 +22,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Rosa Aguilar, Assistant Professor at ITC, University of Twente: GeoAI, machine learning for satellite imagery, QGIS and open-source geospatial tools."
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -85,23 +85,23 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "r.m.aguilardearchila at utwente dot nl"
+email = "r.aguilar@utwente.nl"
 phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "99 Hengelosestraat", city = "Enschede", region = "CA", postcode = "7514AE", country = "The Netherlands", country_code = "NL"}
+address = {street = "Hallenweg 8", city = "Enschede", region = "", postcode = "7522 NH", country = "The Netherlands", country_code = "NL"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "52.223848", longitude = "6.886519"}
+coordinates = {latitude = "52.2380026", longitude = "6.8540026"}
  
 # Directions for visitors to locate you.
-directions = "Enter Building and take the stairs to Office 2-158 on Floor 2"
+directions = ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday to Friday 08:30 to 17:30"]
+office_hours = []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
@@ -109,7 +109,9 @@ office_hours = ["Monday to Friday 08:30 to 17:30"]
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "envelope", icon_pack = "fas", name = "Email me", link = "mailto:r.aguilar@utwente.nl"},
+  {icon = "linkedin", icon_pack = "fab", name = "Connect on LinkedIn", link = "https://www.linkedin.com/in/rosamaguilar/"},
+  {icon = "github", icon_pack = "fab", name = "Code on GitHub", link = "https://github.com/rosaguilar"},
  # {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
  # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
@@ -124,7 +126,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "rosaguilar"
+twitter = ""
 
 ############################
 ## Regional Settings
