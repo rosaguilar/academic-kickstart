@@ -5,7 +5,7 @@ authors: ["admin"]
 tags: ["Open source", "QGIS", "GeoAI"]
 categories: []
 icon: "layer-group"
-weight: 1
+weight: 2
 date: 2026-08-26
 
 # Optional external URL for project (replaces project detail page).

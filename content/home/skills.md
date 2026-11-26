@@ -16,13 +16,13 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Spatiotemporal machine learning"
-  description = "Random Forest, Mixed Effects RF, Prophet and SVM models for climate, Earth system and pollen prediction, from data preparation to validation."
+  description = "Ensemble classifiers, Random Forest, Mixed Effects RF, Prophet and SVM models for mapping crops on smallholder farms, climate change insights and pollen prediction, from data preparation to validation."
 
 [[feature]]
   icon = "satellite"
   icon_pack = "fas"
   name = "Computer vision on satellite imagery"
-  description = "Object detection and segmentation (YOLOv11) on high-resolution imagery, for example detecting solar panels and mapping crops on smallholder farms."
+  description = "Image segmentation and Object detection (YOLOv11) on high-resolution imagery, for example detecting open spaces, trees and solar panels."
 
 [[feature]]
   icon = "users"

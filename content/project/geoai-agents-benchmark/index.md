@@ -5,7 +5,7 @@ authors: ["admin"]
 tags: ["GeoAI", "QGIS", "AI agents"]
 categories: []
 icon: "robot"
-weight: 2
+weight: 6
 date: 2026-01-01
 
 # Optional external URL for project (replaces project detail page).

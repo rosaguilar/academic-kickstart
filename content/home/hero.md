@@ -12,8 +12,8 @@ title = "GeoAI for real-world decisions"
 
 [design.background]
   # Background gradient.
-  gradient_start = "#0f4c5c"
-  gradient_end = "#2a9d8f"
+  gradient_start = "#0e7490"
+  gradient_end = "#2ec4b6"
 
   # Background image (optional): add an image to `static/img/` and uncomment.
   # image = "hero.jpg"

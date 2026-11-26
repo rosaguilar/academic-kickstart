@@ -78,8 +78,8 @@
  *  Modern cards (Projects & Publications)
  **************************************************/
 
-$mc-accent: #0f766e;
-$mc-accent-soft: #e6f4f1;
+$mc-accent: #0d9488;
+$mc-accent-soft: #e0f7f5;
 $mc-border: rgba(17, 24, 39, 0.08);
 $mc-text: #1f2937;
 $mc-muted: #6b7280;
@@ -102,8 +102,8 @@ $mc-muted: #6b7280;
 
   &:hover {
     transform: translateY(-4px);
-    border-color: rgba(15, 118, 110, 0.35);
-    box-shadow: 0 12px 32px rgba(15, 118, 110, 0.14);
+    border-color: rgba(13, 148, 136, 0.35);
+    box-shadow: 0 12px 32px rgba(13, 148, 136, 0.14);
   }
 }
 
@@ -137,7 +137,7 @@ $mc-muted: #6b7280;
   justify-content: center;
   aspect-ratio: auto;
   height: 120px;
-  background: linear-gradient(135deg, #0f4c5c 0%, #2a9d8f 100%);
+  background: linear-gradient(135deg, #0e7490 0%, #2ec4b6 100%);
   color: rgba(255, 255, 255, 0.92);
   font-size: 2.6rem;
   text-decoration: none !important;
@@ -265,7 +265,7 @@ $mc-muted: #6b7280;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 12px 32px rgba(15, 118, 110, 0.14);
+    box-shadow: 0 12px 32px rgba(13, 148, 136, 0.14);
   }
 
   i {
@@ -281,7 +281,7 @@ $mc-muted: #6b7280;
   }
 
   .mcard--no-media {
-    border-top-color: #2a9d8f;
+    border-top-color: #2ec4b6;
   }
 
   .mcard-title a {

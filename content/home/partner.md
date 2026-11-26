@@ -13,7 +13,7 @@ subtitle = "I work with companies, public agencies and research consortia to tur
   columns = "1"
 
 [design.background]
-  color = "#eef6f5"
+  color = "#e8f8f7"
   text_color_light = false
 +++
 

@@ -5,7 +5,7 @@ authors: ["admin"]
 tags: ["GeoAI", "Deep learning", "Open source"]
 categories: []
 icon: "tree"
-weight: 4
+weight: 5
 date: 2026-11-09
 
 # Optional external URL for project (replaces project detail page).

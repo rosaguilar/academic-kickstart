@@ -5,12 +5,12 @@ name = "Geo"
 light = true
 
 # Primary (teal, matching the hero banner)
-primary = "#0f766e"
+primary = "#0d9488"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#1f2937"
-menu_text_active = "#0f766e"
+menu_text_active = "#0d9488"
 menu_title = "#111827"
 
 # Home sections

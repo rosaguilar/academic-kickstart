@@ -27,5 +27,5 @@ image:
   focal_point: "Smart"
   preview_only: false
 
-projects: []
+projects: ["ensemble-crop-classification"]
 ---

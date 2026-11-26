@@ -5,7 +5,7 @@ authors: ["admin"]
 tags: ["GeoAI", "Computer vision", "Remote sensing"]
 categories: []
 icon: "solar-panel"
-weight: 3
+weight: 4
 date: 2024-01-01
 
 # Optional external URL for project (replaces project detail page).
@@ -27,5 +27,6 @@ slides: ""
 ---
 
 * Built a **YOLOv11 object-detection pipeline** that detects solar panels in satellite imagery.
-* Developed Python and Google Earth Engine workflows on **VIIRS night-light imagery** to identify rural areas lacking electricity access.
-* Built ML-ready training datasets from multi-temporal satellite imagery and coordinated the field data collection used to label them.
+* Built ML-ready training datasets from satellite imagery.
+* Developed Python workflows on **VIIRS night-light imagery** to identify solar facilities in rural areas.
+
