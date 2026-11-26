@@ -11,11 +11,6 @@ subtitle = ""
 # Add/remove as many feature blocks below as you like (three per row).
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[feature]]
-  icon = "satellite"
-  icon_pack = "fas"
-  name = "Computer vision on satellite imagery"
-  description = "Object detection and segmentation (YOLOv11) on high-resolution imagery, for example detecting solar panels and mapping crops on smallholder farms."
 
 [[feature]]
   icon = "chart-line"
@@ -24,22 +19,28 @@ subtitle = ""
   description = "Random Forest, Mixed Effects RF, Prophet and SVM models for climate, Earth system and pollen prediction, from data preparation to validation."
 
 [[feature]]
-  icon = "robot"
+  icon = "satellite"
   icon_pack = "fas"
-  name = "AI agents for GIS"
-  description = "Designing a benchmark that tests how well AI agents carry out real geospatial tasks in QGIS."
-
-[[feature]]
-  icon = "layer-group"
-  icon_pack = "fas"
-  name = "Open source & QGIS"
-  description = "QGIS contributor, FOSS4G speaker and GeoAI workshop instructor; co-organiser of a FOSS4G/QGIS conference with 500+ participants."
+  name = "Computer vision on satellite imagery"
+  description = "Object detection and segmentation (YOLOv11) on high-resolution imagery, for example detecting solar panels and mapping crops on smallholder farms."
 
 [[feature]]
   icon = "users"
   icon_pack = "fas"
   name = "Planning support tools"
   description = "Co-designed OGITO, an open-source tool that runs real-time spatial analysis to help stakeholders plan together."
+
+[[feature]]
+  icon = "layer-group"
+  icon_pack = "fas"
+  name = "Open source & QGIS"
+  description = "QGIS contributor, FOSS4G speaker and GeoAI workshop instructor; co-organiser of a FOSS4G/QGIS conferences."
+  
+[[feature]]
+  icon = "robot"
+  icon_pack = "fas"
+  name = "AI agents for GIS"
+  description = "Designing a benchmark that tests how well AI agents carry out real geospatial tasks in QGIS."
 
 [[feature]]
   icon = "handshake"

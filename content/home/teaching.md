@@ -19,11 +19,11 @@ I teach scientific programming and machine learning to geospatial scientists, an
 
 * Scientific Programming for Geospatial Sciences
 * Machine Learning for Geospatial Sciences
-* Data Science and Data Science: Additional Topics
-* Spatiotemporal visualisation and modelling
+* Data Science and Space for ethics: Additional Topics
+* GeoAI
 
 **UNIGIS MSc** (University of Twente and Vrije Universiteit Amsterdam): coordinator of the **GeoAI module**.
 
-**Workshops and guest lectures**: GeoAI and QGIS workshops at FOSS4G conferences, Python sessions with The Carpentries, and guest lectures at international institutions.
+**Workshops and guest lectures**: GeoAI and QGIS workshops at FOSS4G conferences, Python sessions with The Carpentries style, and guest lectures at international institutions.
 
-I supervise PhD and MSc students in machine learning and spatial analytics, and I'm passionate about bringing more women into STEM.
+I supervise PhD and MSc students in machine learning and spatial analytics, and I'm passionate about bringing more women into STEM so I actively particpate in #Geochicas.

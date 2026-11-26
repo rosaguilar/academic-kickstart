@@ -18,14 +18,15 @@ organizations:
   url: "https://www.itc.nl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: GeoAI researcher and machine learning engineer. I turn satellite imagery and spatiotemporal data into tools that people and organisations can use, and I champion QGIS and open-source GIS.
+bio: GeoAI researcher and machine learning engineer. I turn satellite imagery and spatiotemporal data into insights that people and organisations can use, and I advocate QGIS and open-source GIS.
 
 interests:
-- GeoAI and computer vision for Earth observation
-- Spatiotemporal machine learning
+- GeoAI, Earth observation, computer vision
+- Urban informatics
+- Spatiotemporal modelling using machine/deep learning
 - AI agents for geospatial tasks
 - Open-source GIS and QGIS
-- Planning support systems
+- Stakeholders engagement and Planning Support Systems
 
 education:
   courses:
@@ -69,6 +70,8 @@ social:
 email: "rosamaguilar@gmail.com"
 ---
 
-I am an **Assistant Professor in Machine Learning and Data Integration** at the Faculty ITC, University of Twente. I build machine learning and computer vision pipelines for satellite imagery and spatiotemporal data, from detecting solar panels from space to benchmarking AI agents in QGIS.
+I am an **Assistant Professor in Machine Learning and Data Integration** at the Faculty ITC, University of Twente. I build machine learning and computer vision pipelines for satellite imagery and spatiotemporal data, from detecting crops, open spaces, solar panels from space to benchmarking AI agents in QGIS.
+My teaching topics include scientific programming, machine learning, data science, ethics in relation to spatial data and GeoAI in the UNIGIS MSc - University of Twente and Vrije Universitait. 
 
-I am a **QGIS contributor and open-source advocate** who has co-created the [ML4QGIS](project/ml4qgis/) plugin. I teach GeoAI at FOSS4G and in the UNIGIS MSc, and co-organised a FOSS4G/QGIS conference with 500+ participants. Before academia I was Deputy President of the Geographic Institute of Venezuela, and I [welcome collaboration](#partner) with industry and government.
+As a **QGIS contributor and open-source advocate** I maintain the [ML4QGIS](project/ml4qgis/) plugin. I have also contributed to the organization of FOSS4G/QGIS conferences and deliver talks and workshops. Before academia I was Deputy President of the Geographic Institute of Venezuela.
+I [welcome collaboration](#partner) with industry and government.

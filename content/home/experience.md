@@ -25,9 +25,9 @@ date_format = "Jan 2006"
   date_start = "2024-01-01"
   date_end = ""
   description = """
+  * Built ML-ready training datasets from multi-temporal satellite imagery.<br>
   * Built a YOLOv11 object-detection pipeline that detects solar panels in satellite imagery.<br>
   * Developed Python and Google Earth Engine workflows on VIIRS night-light imagery to find rural areas without electricity access.<br>
-  * Built ML-ready training datasets from multi-temporal satellite imagery and coordinated the field data collection used to label them.<br>
   * Leading the design of a benchmark that evaluates AI agents on geospatial tasks in QGIS.<br>
   * Supervising PhD and MSc students; teaching GeoAI and spatiotemporal modelling; coordinating the GeoAI module of the joint UNIGIS MSc with Vrije Universiteit Amsterdam."""
 
@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   * Developed Random Forest, Mixed Effects Random Forest, Prophet and SVM models for climate and Earth system prediction, improving overall accuracy by up to 20%.<br>
   * Designed full ML pipelines: data preparation, exploratory analysis, feature scaling, hyperparameter optimisation and validation.<br>
   * Built and deployed mobile apps for spatial data collection, including user training and feedback loops.<br>
-  * Co-organised an international FOSS4G/QGIS conference with more than 500 participants."""
+  * Co-organised an international FOSS4G/QGIS conference."""
 
 [[experience]]
   title = "PhD Researcher"
