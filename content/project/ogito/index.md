@@ -5,7 +5,7 @@ authors: ["admin"]
 tags: ["Open source", "Planning support systems"]
 categories: []
 icon: "users"
-weight: 6
+weight: 3
 date: 2022-10-12
 
 # Optional external URL for project (replaces project detail page).
