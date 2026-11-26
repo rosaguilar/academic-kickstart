@@ -26,4 +26,4 @@ I teach scientific programming and machine learning to geospatial scientists, an
 
 **Workshops and guest lectures**: GeoAI and QGIS workshops at FOSS4G conferences, Python sessions with The Carpentries style, and guest lectures at international institutions.
 
-I supervise PhD and MSc students in machine learning and spatial analytics, and I'm passionate about bringing more women into STEM so I actively particpate in #Geochicas.
+I supervise PhD and MSc students in machine learning and spatial analytics, and I'm passionate about bringing more women into STEM so I actively participate in #Geochicas.
