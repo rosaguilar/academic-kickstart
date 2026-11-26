@@ -39,7 +39,7 @@ education:
   - course: MSc in Computer Science
     institution: Universidad Simón Bolívar
     year: 2009
-  - course: Diploma in Computer Systems Engineering
+  - course: Computer Systems Engineering
     institution: Universidad Centroccidental Lisandro Alvarado
 
 # Social/Academic Networking
@@ -70,8 +70,8 @@ social:
 email: "rosamaguilar@gmail.com"
 ---
 
-I am an **Assistant Professor in Machine Learning and Data Integration** at the Faculty ITC, University of Twente. I build machine learning and computer vision pipelines for satellite imagery and spatiotemporal data, from detecting crops, open spaces, solar panels from space to benchmarking AI agents in QGIS.
+I am an **Assistant Professor in Machine Learning and Data Integration** at the Faculty ITC, University of Twente. I build machine learning and computer vision pipelines for satellite imagery and spatiotemporal data, covering tasks such as crops identification, open spaces mapping, solar panels detection from space to benchmarking AI agents in QGIS.
 My teaching topics include scientific programming, machine learning, data science, ethics in relation to spatial data and GeoAI in the UNIGIS MSc - University of Twente and Vrije Universitait. 
 
-As a **QGIS contributor and open-source advocate** I maintain the [ML4QGIS](project/ml4qgis/) plugin. I have also contributed to the organization of FOSS4G/QGIS conferences and deliver talks and workshops. Before academia I was Deputy President of the Geographic Institute of Venezuela.
+As a **QGIS contributor and open-source advocate**, I maintain the [ML4QGIS](project/ml4qgis/) plugin. I have also contributed to the organization of FOSS4G/QGIS conferences and deliver talks and workshops. Before academia I was Deputy President of the Geographic Institute of Venezuela.
 I [welcome collaboration](#partner) with industry and government.

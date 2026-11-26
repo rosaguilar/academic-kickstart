@@ -39,11 +39,11 @@ title = "GeoAI for real-world decisions"
   label = '<a href="#featured">Publications</a> · <a href="#talks">Talks & workshops</a>'
 +++
 
-Machine learning and computer vision for satellite imagery and spatiotemporal data, built with **open-source tools** and shared with **industry, government and the QGIS community**.
+Machine learning and data integration for satellite imagery and spatiotemporal data, built with **open-source tools** and shared with **industry, government and the QGIS community**.
 
 <div class="hero-stats">
-  <div class="hero-stat"><span class="hero-stat-num">7+</span><span class="hero-stat-label">years building ML pipelines</span></div>
-  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label">peer-reviewed papers</span></div>
-  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label">international conference talks</span></div>
-  <div class="hero-stat"><span class="hero-stat-num">500+</span><span class="hero-stat-label">FOSS4G/QGIS conference attendees (co-organiser)</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">7+</span><span class="hero-stat-label"> years building ML pipelines</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label"> peer-reviewed papers</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">10+</span><span class="hero-stat-label"> international conference talks</span></div>
+  <div class="hero-stat"><span class="hero-stat-num">450+</span><span class="hero-stat-label"> staff led at Venezuela's national mapping agency (Deputy president IGVSB)</span></div>
 </div>

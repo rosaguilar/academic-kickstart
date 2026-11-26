@@ -1,0 +1,51 @@
+# Builds the site with Hugo and publishes it to rosaguilar/rosaguilar.github.io.
+# Runs on every push to master, or manually from the Actions tab ("Run workflow").
+#
+# One-time setup: add a repository secret named PAGES_TOKEN to this repo
+# (Settings > Secrets and variables > Actions) holding a fine-grained personal
+# access token with "Contents: Read and write" on rosaguilar/rosaguilar.github.io.
+
+name: Deploy website
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source and theme
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install Hugo 0.60.1 extended
+        run: |
+          curl -sSL -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.60.1/hugo_extended_0.60.1_Linux-64bit.tar.gz
+          mkdir -p "$HOME/hugo" && tar -xzf hugo.tar.gz -C "$HOME/hugo" && rm hugo.tar.gz
+          echo "$HOME/hugo" >> "$GITHUB_PATH"
+
+      - name: Build site
+        env:
+          HUGO_ENV: production
+        run: |
+          hugo version
+          hugo --gc --minify -b https://rosaguilar.github.io/ -d public
+
+      - name: Publish to rosaguilar.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PAGES_TOKEN }}
+          external_repository: rosaguilar/rosaguilar.github.io
+          publish_branch: master
+          publish_dir: ./public
+          user_name: Rosa Aguilar
+          user_email: rosaguilar@users.noreply.github.com
+          commit_message: ${{ github.event.head_commit.message }}
