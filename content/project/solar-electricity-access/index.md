@@ -1,6 +1,6 @@
 ---
 title: "Solar panels and electricity access from space"
-summary: "A YOLOv11 pipeline that detects solar panels in satellite imagery, combined with VIIRS night lights to find rural areas without electricity access."
+summary: "A YOLOv11 pipeline that detects solar panels in satellite imagery in rural contexts."
 authors: ["admin"]
 tags: ["GeoAI", "Computer vision", "Remote sensing"]
 categories: []
